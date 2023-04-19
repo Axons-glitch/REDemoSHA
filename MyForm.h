@@ -421,7 +421,7 @@ namespace REDemoSHA {
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(245, 27);
 			this->textBox4->TabIndex = 0;
-			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
+			//this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
 			// label8
 			// 
@@ -564,6 +564,10 @@ namespace REDemoSHA {
 				//std::cout << "tmp in loop: " << std::endl;
 				pnlSign->Show();
 				pnlIn->Show();
+				
+				std::string temp_hash = shash(text, salt, salt2);
+				std::cout << "Temp shash loaded sucessfully: " << temp_hash << std::endl;
+				update_pass(temp_hash, user);
 			}
 			else {
 				war(label10);
@@ -586,6 +590,8 @@ namespace REDemoSHA {
 
 	void submit_new() {
 		if (textBox3->Text == textBox5->Text && textBox5->Text != "") {
+
+			//update_pass("123456", "pepo");
 
 			UTF8Encoding^ utf8 = gcnew UTF8Encoding;
 			const char* dir = ".\\Base\\Password.db";

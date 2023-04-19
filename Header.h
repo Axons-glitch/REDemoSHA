@@ -352,14 +352,6 @@ bool backhash(std::string _text, std::string _selt, std::string _selt2, std::str
 	std::cout << "Elapsed time ms : " << elapsed_time / 1e6 << std::endl;
 	//std::cout << "All is: Good" << std::endl;
 
-	if (out == true)
-	{
-		std::string temp_hash = shash(_passs, _selt, _selt2);
-		std::cout << "Temp shash loaded sucessfully: " << temp_hash << std::endl;
-		update_pass(temp_hash, _user);
-
-	}
-
 	return out;
 }
 
