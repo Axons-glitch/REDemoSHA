@@ -522,7 +522,7 @@ namespace REDemoSHA {
 		label4->Text = "";
 	}
 
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	void submit() {
 
 		String^ userSystem = textBox1->Text;
 		String^ textSystem = textBox2->Text;
@@ -585,13 +585,23 @@ namespace REDemoSHA {
 
 	private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 
-		if (checkBox1->Checked)
-		{
+		if (checkBox1->Checked){
 			button1->Enabled = true;
 		}
 		else
 			button1->Enabled = false;
 
+	}
+
+	private: System::Void textBox2_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+		if (e->KeyCode == Keys::Enter) {
+			submit();
+		}
+			
+	}
+
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		submit();
 	}
 
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
