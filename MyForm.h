@@ -144,12 +144,12 @@ namespace REDemoSHA {
 			// 
 			this->label1->AutoSize = true;
 			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label1->ForeColor = System::Drawing::Color::Black;
 			this->label1->Location = System::Drawing::Point(53, 40);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(113, 25);
+			this->label1->Size = System::Drawing::Size(139, 31);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Username";
 			// 
@@ -157,23 +157,23 @@ namespace REDemoSHA {
 			// 
 			this->textBox1->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox1->Font = (gcnew System::Drawing::Font(L"Rubik", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->textBox1->Location = System::Drawing::Point(57, 68);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(245, 23);
+			this->textBox1->Size = System::Drawing::Size(245, 27);
 			this->textBox1->TabIndex = 0;
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
 			this->label2->BackColor = System::Drawing::Color::Transparent;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label2->ForeColor = System::Drawing::Color::Black;
 			this->label2->Location = System::Drawing::Point(53, 123);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(108, 25);
+			this->label2->Size = System::Drawing::Size(134, 31);
 			this->label2->TabIndex = 2;
 			this->label2->Text = L"Password";
 			// 
@@ -184,7 +184,7 @@ namespace REDemoSHA {
 			this->textBox2->Location = System::Drawing::Point(57, 149);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->PasswordChar = '*';
-			this->textBox2->Size = System::Drawing::Size(245, 23);
+			this->textBox2->Size = System::Drawing::Size(245, 27);
 			this->textBox2->TabIndex = 1;
 			this->textBox2->UseSystemPasswordChar = true;
 			// 
@@ -195,7 +195,7 @@ namespace REDemoSHA {
 			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Enabled = false;
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->button1->ForeColor = System::Drawing::Color::White;
 			this->button1->Location = System::Drawing::Point(57, 273);
@@ -211,7 +211,7 @@ namespace REDemoSHA {
 			this->button2->BackColor = System::Drawing::Color::Navy;
 			this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button2->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->button2->ForeColor = System::Drawing::Color::White;
 			this->button2->Location = System::Drawing::Point(164, 273);
@@ -227,12 +227,12 @@ namespace REDemoSHA {
 			this->label3->AutoSize = true;
 			this->label3->BackColor = System::Drawing::Color::Transparent;
 			this->label3->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label3->ForeColor = System::Drawing::Color::Black;
 			this->label3->Location = System::Drawing::Point(122, 328);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(79, 25);
+			this->label3->Size = System::Drawing::Size(96, 31);
 			this->label3->TabIndex = 3;
 			this->label3->Text = L"Sign in";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
@@ -241,12 +241,12 @@ namespace REDemoSHA {
 			// 
 			this->checkBox1->AutoSize = true;
 			this->checkBox1->BackColor = System::Drawing::Color::Transparent;
-			this->checkBox1->Font = (gcnew System::Drawing::Font(L"Rubik", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->checkBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->checkBox1->ForeColor = System::Drawing::Color::Black;
 			this->checkBox1->Location = System::Drawing::Point(57, 178);
 			this->checkBox1->Name = L"checkBox1";
-			this->checkBox1->Size = System::Drawing::Size(238, 19);
+			this->checkBox1->Size = System::Drawing::Size(290, 24);
 			this->checkBox1->TabIndex = 8;
 			this->checkBox1->Text = L"I agree to the terms and conditions";
 			this->checkBox1->UseVisualStyleBackColor = false;
@@ -279,12 +279,12 @@ namespace REDemoSHA {
 			this->label4->AutoSize = true;
 			this->label4->BackColor = System::Drawing::Color::Transparent;
 			this->label4->Cursor = System::Windows::Forms::Cursors::Default;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Rubik", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label4->ForeColor = System::Drawing::Color::White;
 			this->label4->Location = System::Drawing::Point(64, 273);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(0, 19);
+			this->label4->Size = System::Drawing::Size(0, 25);
 			this->label4->TabIndex = 20;
 			// 
 			// pnlIn
@@ -304,7 +304,7 @@ namespace REDemoSHA {
 			this->button5->BackColor = System::Drawing::Color::Crimson;
 			this->button5->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button5->Font = (gcnew System::Drawing::Font(L"Rubik", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->button5->ForeColor = System::Drawing::Color::White;
 			this->button5->Location = System::Drawing::Point(205, 265);
@@ -319,12 +319,12 @@ namespace REDemoSHA {
 			// 
 			this->label11->AutoSize = true;
 			this->label11->BackColor = System::Drawing::Color::Transparent;
-			this->label11->Font = (gcnew System::Drawing::Font(L"Rubik", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label11->ForeColor = System::Drawing::Color::Black;
 			this->label11->Location = System::Drawing::Point(217, 40);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(94, 76);
+			this->label11->Size = System::Drawing::Size(119, 91);
 			this->label11->TabIndex = 0;
 			this->label11->Text = L"IN";
 			// 
@@ -332,12 +332,12 @@ namespace REDemoSHA {
 			// 
 			this->label9->AutoSize = true;
 			this->label9->BackColor = System::Drawing::Color::Transparent;
-			this->label9->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label9->ForeColor = System::Drawing::Color::Black;
 			this->label9->Location = System::Drawing::Point(54, 174);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(108, 25);
+			this->label9->Size = System::Drawing::Size(134, 31);
 			this->label9->TabIndex = 18;
 			this->label9->Text = L"Password";
 			// 
@@ -346,12 +346,12 @@ namespace REDemoSHA {
 			this->label6->AutoSize = true;
 			this->label6->BackColor = System::Drawing::Color::Transparent;
 			this->label6->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
+			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label6->ForeColor = System::Drawing::Color::Black;
 			this->label6->Location = System::Drawing::Point(136, 356);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(72, 25);
+			this->label6->Size = System::Drawing::Size(87, 31);
 			this->label6->TabIndex = 4;
 			this->label6->Text = L"Log in";
 			this->label6->Click += gcnew System::EventHandler(this, &MyForm::label6_Click);
@@ -361,7 +361,7 @@ namespace REDemoSHA {
 			this->button3->BackColor = System::Drawing::Color::Navy;
 			this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button3->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->button3->ForeColor = System::Drawing::Color::White;
 			this->button3->Location = System::Drawing::Point(164, 308);
@@ -378,7 +378,7 @@ namespace REDemoSHA {
 			this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button4->Enabled = false;
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button4->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->button4->ForeColor = System::Drawing::Color::White;
 			this->button4->Location = System::Drawing::Point(58, 308);
@@ -396,7 +396,7 @@ namespace REDemoSHA {
 			this->textBox3->Location = System::Drawing::Point(57, 140);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->PasswordChar = '*';
-			this->textBox3->Size = System::Drawing::Size(245, 23);
+			this->textBox3->Size = System::Drawing::Size(245, 27);
 			this->textBox3->TabIndex = 1;
 			this->textBox3->UseSystemPasswordChar = true;
 			// 
@@ -404,12 +404,12 @@ namespace REDemoSHA {
 			// 
 			this->label7->AutoSize = true;
 			this->label7->BackColor = System::Drawing::Color::Transparent;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label7->ForeColor = System::Drawing::Color::Black;
 			this->label7->Location = System::Drawing::Point(54, 114);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(108, 25);
+			this->label7->Size = System::Drawing::Size(134, 31);
 			this->label7->TabIndex = 11;
 			this->label7->Text = L"Password";
 			// 
@@ -419,19 +419,20 @@ namespace REDemoSHA {
 			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->textBox4->Location = System::Drawing::Point(57, 68);
 			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(245, 23);
+			this->textBox4->Size = System::Drawing::Size(245, 27);
 			this->textBox4->TabIndex = 0;
+			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
 			// label8
 			// 
 			this->label8->AutoSize = true;
 			this->label8->BackColor = System::Drawing::Color::Transparent;
-			this->label8->Font = (gcnew System::Drawing::Font(L"Rubik", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label8->ForeColor = System::Drawing::Color::Black;
 			this->label8->Location = System::Drawing::Point(53, 40);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(113, 25);
+			this->label8->Size = System::Drawing::Size(139, 31);
 			this->label8->TabIndex = 9;
 			this->label8->Text = L"Username";
 			// 
@@ -439,12 +440,12 @@ namespace REDemoSHA {
 			// 
 			this->checkBox2->AutoSize = true;
 			this->checkBox2->BackColor = System::Drawing::Color::Transparent;
-			this->checkBox2->Font = (gcnew System::Drawing::Font(L"Rubik", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->checkBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->checkBox2->ForeColor = System::Drawing::Color::Black;
 			this->checkBox2->Location = System::Drawing::Point(58, 240);
 			this->checkBox2->Name = L"checkBox2";
-			this->checkBox2->Size = System::Drawing::Size(238, 19);
+			this->checkBox2->Size = System::Drawing::Size(290, 24);
 			this->checkBox2->TabIndex = 17;
 			this->checkBox2->Text = L"I agree to the terms and conditions";
 			this->checkBox2->UseVisualStyleBackColor = false;
@@ -457,7 +458,7 @@ namespace REDemoSHA {
 			this->textBox5->Location = System::Drawing::Point(57, 203);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->PasswordChar = '*';
-			this->textBox5->Size = System::Drawing::Size(245, 23);
+			this->textBox5->Size = System::Drawing::Size(245, 27);
 			this->textBox5->TabIndex = 2;
 			this->textBox5->UseSystemPasswordChar = true;
 			// 
@@ -466,12 +467,12 @@ namespace REDemoSHA {
 			this->label10->AutoSize = true;
 			this->label10->BackColor = System::Drawing::Color::Transparent;
 			this->label10->Cursor = System::Windows::Forms::Cursors::Default;
-			this->label10->Font = (gcnew System::Drawing::Font(L"Rubik", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label10->ForeColor = System::Drawing::Color::White;
 			this->label10->Location = System::Drawing::Point(61, 241);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(0, 19);
+			this->label10->Size = System::Drawing::Size(0, 25);
 			this->label10->TabIndex = 10;
 			// 
 			// timer1
@@ -500,7 +501,7 @@ namespace REDemoSHA {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->checkBox1);
 			this->DoubleBuffered = true;
-			this->Font = (gcnew System::Drawing::Font(L"Rubik", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->Name = L"MyForm";
 			this->Text = L"SHA";
@@ -583,45 +584,7 @@ namespace REDemoSHA {
 		}
 	}
 
-	private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-
-		if (checkBox1->Checked){
-			button1->Enabled = true;
-		}
-		else
-			button1->Enabled = false;
-
-	}
-
-	private: System::Void textBox2_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
-		if (e->KeyCode == Keys::Enter) {
-			submit();
-		}
-			
-	}
-
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		submit();
-	}
-
-	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-		Application::Exit();
-	}
-
-
-	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
-		pnlSign->Show();
-	}
-
-
-	private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
-		pnlSign->Hide();
-	}
-	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-		Application::Exit();
-	}
-	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-
+	void submit_new() {
 		if (textBox3->Text == textBox5->Text && textBox5->Text != "") {
 
 			UTF8Encoding^ utf8 = gcnew UTF8Encoding;
@@ -677,6 +640,53 @@ namespace REDemoSHA {
 			timer2->Start();
 			std::cout << "Exeption found: Ivnalid username" << std::endl;
 		}
+
+	}
+
+	private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+
+		if (checkBox1->Checked){
+			button1->Enabled = true;
+		}
+		else
+			button1->Enabled = false;
+
+	}
+
+	private: System::Void textBox2_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+		if (e->KeyCode == Keys::Enter) {
+			submit();
+		}
+			
+	}
+
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		submit();
+	}
+
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		Application::Exit();
+	}
+
+
+	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
+		pnlSign->Show();
+	}
+
+
+	private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
+		pnlSign->Hide();
+	}
+	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+		Application::Exit();
+	}
+	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+		submit_new();
+	}
+	private: System::Void textBox5_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+		if (e->KeyCode == Keys::Enter) {
+			submit_new();
+		}
 	}
 	private: System::Void checkBox2_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 		if (checkBox2->Checked) {
@@ -691,5 +701,5 @@ namespace REDemoSHA {
 	}
 
 
-	};
+};
 }
