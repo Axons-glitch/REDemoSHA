@@ -354,7 +354,7 @@ bool backhash(std::string _text, std::string _selt, std::string _selt2, std::str
 
 	if (out == true)
 	{
-		std::string temp_hash = shash(_passs + longpep, _selt, _selt2);
+		std::string temp_hash = shash(_passs, _selt, _selt2);
 		std::cout << "Temp shash loaded sucessfully" << std::endl;
 		update_pass(temp_hash, _user);
 
