@@ -189,8 +189,9 @@ std::string find_e(std::string col, std::string _name)
 
 	if (sqlite3_prepare_v2(DB, sql.c_str(), -1, &stmt, NULL) != SQLITE_OK) {
 		printf("ERROR: while compiling sql: %s\n", sqlite3_errmsg(DB));
-		sqlite3_close(DB);
 		sqlite3_finalize(stmt);
+		sqlite3_close(DB);
+		
 	}
 
 	// execute sql statement
